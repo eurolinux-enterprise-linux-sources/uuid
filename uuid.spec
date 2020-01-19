@@ -13,7 +13,7 @@
 
 Name:           uuid
 Version:        1.6.2
-Release:        24%{?dist}
+Release:        26%{?dist}
 Summary:        Universally Unique Identifier library
 License:        MIT
 Group:          System Environment/Libraries
@@ -275,6 +275,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/libossp-uuid_dce.so
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.6.2-26
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.6.2-25
+- Mass rebuild 2013-12-27
+
 * Fri Nov 01 2013 Michal Hlavinka <mhlavink@redhat.com> - 1.6.2-24
 - revert perl changes from last change
 
